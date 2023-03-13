@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Concept Inc.</title>
     <link rel="stylesheet" href="style.css" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main-wrapper">
@@ -16,18 +23,53 @@
             <div class="right-side">
               <div class="right-content_wrapper">
                 <div class="intro_wrapper">
-                  <p>
-                    This is not a real online service! You know you need
-                    something like this in your life to help you realize your
-                    deepest dreams. Sign up now to get started
-                  </p>
-                  <p>You know you want to.</p>
+                  <div class="content-padding">
+                    <p class="p-light">
+                      This is not a real online service! You know you need
+                      something like this in your life to help you realize your
+                      deepest dreams. Sign up now to get started
+                    </p>
+                    <p>You know you want to.</p>
+                  </div>
                 </div>
                 <form action="" method="">
+                  <div class="content-padding">
                     <h3>Let's Do This!</h3>
+
+                    <div class="inputs_wrapper">
+                      <div class="input_wrapper">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" />
+                      </div>
+                      <div class="input_wrapper">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" />
+                      </div>
+                      <div class="input_wrapper">
+                        <label for="email">Email</label>
+                        <input type="email" />
+                      </div>
+                      <div class="input_wrapper">
+                        <label for="phone">Phone-Number</label>
+                        <input type="number" />
+                      </div>
+                      <div class="input_wrapper">
+                        <label for="pass">Password</label>
+                        <input type="password" />
+                      </div>
+                      <div class="input_wrapper">
+                        <label for="confirm-pass">Confirm Password</label>
+                        <input type="password" />
+                      </div>
+                    </div>
+                  </div>
                 </form>
-                <button>Create Account</button>
-                <p class="p-light">Already have an Account? <a href="">Log in</a></p>
+                <div class="content-padding">
+                  <button>Create Account</button>
+                  <p class="p-light">
+                    Already have an Account? <a href="">Log in</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>

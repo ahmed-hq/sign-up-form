@@ -1,7 +1,25 @@
 body{
+    font-family: 'Cairo', sans-serif;
     margin: 0%;
     overflow: hidden;
-    color: aliceblue;
+    color: hsl(225,88.89%,96.47%);
+}
+
+h3{
+    margin: 0%;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: auto;
+    font-weight: 400;
+}
+
+.p-light{
+    font-weight: 100;
 }
 
 .form-section{
@@ -24,11 +42,42 @@ body{
 }
 
 .right-side{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     width: 60vw;
     background-color: hsl(63.75,100%,1.14%);
 }
 
+.right-content_wrapper{
+    
+}
+
+.content-padding{
+    width: 100%;
+    padding: 0rem 5rem;
+}
+/* .intro_wrapper{
+    max-width: 65rem;
+} */
+
 form{
+    display: flex;
     background-color: hsl(100,15.09%,6.47%);
+    padding: 3rem 0rem;
+    
+}
+
+.inputs_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30rem;
+    gap: 2rem;
+}
+
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
 }
