@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+
+.form-section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.right-side{
+    display: inline-block;
+    width: 60vw;
+    background-color: hsl(63.75,100%,1.14%);
+}
+
+.left-side{
+    display: inline-block;
+    width: 40vw;
+    background-image: url("./images/milad-fakurian-CdAmQAko9As-unsplash-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
