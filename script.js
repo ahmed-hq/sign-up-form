@@ -15,6 +15,8 @@ function passValidate() {
     pass.style.borderColor = "hsl(8.09,80.18%,56.47%)";
     confirmPassWrapper.style.color= "hsl(8.09,80.18%,56.47%)";
     passNotMatch.style.display = "block";
+    passNotMatch.style.position = "absolute";
+    passNotMatch.style.bottom = "-1.9rem"
   } else {
     confirmPass.style.borderColor = "hsl(142.57,52.15%,40.98%)";
     pass.style.borderColor = "hsl(142.57,52.15%,40.98%)";

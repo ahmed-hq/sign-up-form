@@ -110,6 +110,10 @@ form {
   flex-direction: column;
 }
 
+#confirm-pass_wrapper{
+    position: relative;
+}
+
 label {
   margin-bottom: 3px;
   text-transform: uppercase;
