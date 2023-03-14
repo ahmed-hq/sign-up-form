@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Concept Inc.</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -80,7 +81,7 @@
                         <label for="pass">Password</label>
                         <input type="password" id="pass" />
                       </div>
-                      <div class="input_wrapper">
+                      <div class="input_wrapper" id="confirm-pass_wrapper">
                         <label for="confirm-pass">Confirm Password</label>
                         <input type="password" id="confirm-pass" />
                       </div>
@@ -88,7 +89,7 @@
                   </div>
                 </form>
                 <div class="content-padding">
-                  <button>Create Account</button>
+                  <button type="submit">Create Account</button>
                   <p class="p-light">
                     Already have an Account? <a href="">Log in</a>
                   </p>

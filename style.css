@@ -21,7 +21,12 @@ input {
   border-color: hsl(96, 15%, 16.47%);
   color: hsl(225, 88.89%, 96.47%);
   font-size: 1.2rem;
+  
 }
+
+/* input[type="password"]:valid{
+        border-color: hsl(142.57,52.15%,40.98%);
+} */
 
 input:focus,
 textarea:focus {
