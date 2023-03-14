@@ -29,6 +29,10 @@ textarea:focus {
   border-color: hsl(49.43, 100%, 37.84%);
 }
 
+input:invalid{
+    border-color: hsl(8.09,80.18%,56.47%);
+}
+
 ::placeholder {
   letter-spacing: 3px;
   font-weight: 100;
