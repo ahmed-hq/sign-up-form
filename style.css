@@ -1,8 +1,10 @@
 body {
   font-family: "Cairo", sans-serif;
+  position: relative;
   margin: 0%;
   overflow: hidden;
   color: hsl(225, 88.89%, 96.47%);
+  font-size: 14px;
 }
 
 h3 {
@@ -119,4 +121,40 @@ label {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: hsl(225, 88.89%, 96.47%, 60%);
+}
+
+button {
+    color: hsl(225, 88.89%, 96.47%);
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Cairo", sans-serif;
+    background-color: hsl(49.81,100%,31.18%);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: hsl(50.69,100%,45.49%);
+}
+
+button:active{
+    background-color: hsl(51.43,94.59%,7.25%);
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(49.81,100%,31.18%);
+    transition: 0.5s;
+
+}
+
+a:hover{
+    color: hsl(50.69,100%,45.49%);
+}
+
+a:active{
+    color: hsl(51.43,94.59%,7.25%);
 }
